@@ -14,6 +14,7 @@
 		43632EF629F8B18900A332E6 /* CryptoFoglioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43632EF529F8B18900A332E6 /* CryptoFoglioTests.swift */; };
 		43632F0029F8B18900A332E6 /* CryptoFoglioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43632EFF29F8B18900A332E6 /* CryptoFoglioUITests.swift */; };
 		43632F0229F8B18900A332E6 /* CryptoFoglioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43632F0129F8B18900A332E6 /* CryptoFoglioUITestsLaunchTests.swift */; };
+		43632F1129F8B28D00A332E6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43632F1029F8B28D00A332E6 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		43632EFB29F8B18900A332E6 /* CryptoFoglioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoFoglioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43632EFF29F8B18900A332E6 /* CryptoFoglioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoFoglioUITests.swift; sourceTree = "<group>"; };
 		43632F0129F8B18900A332E6 /* CryptoFoglioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoFoglioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		43632F1029F8B28D00A332E6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,8 @@
 		43632EE229F8B18700A332E6 /* CryptoFoglio */ = {
 			isa = PBXGroup;
 			children = (
+				43632F0E29F8B25800A332E6 /* View */,
+				43632F0F29F8B26000A332E6 /* Model */,
 				43632EE329F8B18700A332E6 /* CryptoFoglioApp.swift */,
 				43632EE529F8B18700A332E6 /* ContentView.swift */,
 				43632EE729F8B18900A332E6 /* Assets.xcassets */,
@@ -127,6 +131,21 @@
 				43632F0129F8B18900A332E6 /* CryptoFoglioUITestsLaunchTests.swift */,
 			);
 			path = CryptoFoglioUITests;
+			sourceTree = "<group>";
+		};
+		43632F0E29F8B25800A332E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				43632F1029F8B28D00A332E6 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		43632F0F29F8B26000A332E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43632EE629F8B18700A332E6 /* ContentView.swift in Sources */,
+				43632F1129F8B28D00A332E6 /* Home.swift in Sources */,
 				43632EE429F8B18700A332E6 /* CryptoFoglioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
